@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <title>BlueLine Garage</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="BlueLine Garage – professional auto repair and maintenance services. Reliable. Honest. Quality-driven." />
+
+  <style>
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeInUp 0.8s ease forwards;
+    }
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3 {
+        font-family: 'Outfit', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-blue-50 text-gray-800 flex flex-col min-h-screen">
+
+  <!-- HEADER -->
+  <header class="bg-blue-900 text-white text-center py-10 px-4 shadow-md">
+    <div class="fade-in">
+      <img src="images/logo.png" alt="BlueLine Garage Logo" class="mx-auto mb-4 w-40 h-auto rounded-lg shadow-lg" />
+      <h1 class="text-4xl font-extrabold tracking-tight">Country Cars and Vans</h1>
+      <p class="text-blue-200 mt-2 text-lg">MOT • Servicing • Repairs</p>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="flex-grow max-w-4xl mx-auto px-6 py-12 space-y-12">
+
+    <!-- About -->
+    <section class="fade-in text-center">
+      <h2 class="text-3xl font-semibold text-blue-900 mb-4">About Us</h2>
+      <p class="max-w-2xl mx-auto text-lg text-gray-700 leading-relaxed">
+        At <span class="font-semibold text-blue-900">Country Cars and Vans</span>, we proudly serve Wiveliscombe and the surrounding areas with MOT testing, servicing and vehicle repairs. Backed by years of experience and carried out by skilled technicians you can trust.
+        </p>
+      </p>
+    </section>
+
+    <!-- Services -->
+    <section class="fade-in">
+      <h2 class="text-3xl font-semibold text-blue-900 text-center mb-6">Our Services</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition border-t-4 border-blue-900">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">MOT</h3>
+          <p class="text-gray-600 text-sm">DVSA-approved MOT testing for cars and light commercial vehicles. Fast, fair, and professional.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition border-t-4 border-blue-900">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Servicing</h3>
+          <p class="text-gray-600 text-sm">Comprehensive vehicle servicing to keep your engine smooth, safe, and efficient - from minor to full services.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition border-t-4 border-blue-900">
+          <h3 class="text-xl font-semibold text-blue-900 mb-2">Repairs</h3>
+          <p class="text-gray-600 text-sm">Expert mechanical and electrical repairs for all makes and models, using high-quality parts and diagnostics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="fade-in">
+      <div class="bg-white rounded-2xl shadow-xl border border-blue-100 p-8 max-w-2xl mx-auto">
+        <h2 class="text-3xl font-semibold text-blue-900 mb-4 text-center">Get in Touch</h2>
+        <div class="space-y-3 text-center text-gray-700">
+          <p><strong>📞 Phone:</strong> <a href="tel:01984624407" class="text-blue-900 hover:underline font-medium">01984 624407</a></p>
+          <p><strong>✉️ Email:</strong> <a href="mailto:info@ccvltd.co.uk" class="text-blue-900 hover:underline font-medium">info@ccvltd.co.uk</a></p>
+          <p><strong>📍 Address:</strong><br>                  Country Cars & Vans Ltd<br />
+                  Station Yard, Station Rd, Wiveliscombe<br />
+                  Taunton TA4 2LX</p>
+          <p><strong>🕒 Hours:</strong><br>Mon–Fri 8:00 AM–6:00 PM<br>Saturday and Sunday Closed</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-950 text-blue-100 text-center py-6 text-sm">
+    &copy; 2025 Country Cars and Vans. <br> VAT Registration: <strong>919938861</strong>
+  </footer>
+
+</body>
+</html>
